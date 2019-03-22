@@ -9,7 +9,7 @@ void calculate_the_maximum(int n, int k) {
   int ABor,ABand,ABxor,i,j,a,b;
   long long int A=0,B=0,C=0;
   for(i=1;i<=n;i++){
-  a=i;
+      a=i;
     for(j=i+1;j<=n;j++){ 
         b = j;
         ABand = a&b;
